@@ -1,0 +1,34 @@
+/***** 
+DO NOT add or change any content in this file. 
+If you need to add your own style, do it in index.html page.
+*****/
+
+.container {
+	display: grid;
+	width: 1200px;
+	margin: 0 auto;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 300px;
+	/*	overflow: hidden;*/
+}
+
+div {
+	position: relative;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+.test {
+	outline: 1px solid red;
+}
